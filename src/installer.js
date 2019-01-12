@@ -22,7 +22,7 @@ function defaultRename (dest, src) {
 }
 
 class SquirrelInstaller extends common.ElectronInstaller {
-  get contentsFunctions () {
+  get contentFunctions () {
     return [
       'copyApplication',
       'createSpec'

@@ -4,7 +4,7 @@ const _ = require('lodash')
 const yargs = require('yargs')
 
 const installer = require('./installer')
-const pkg = require('../package.json')
+const pkg = require('./package.json')
 
 const argv = yargs
   .version(pkg.version)

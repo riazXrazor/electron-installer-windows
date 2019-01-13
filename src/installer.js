@@ -59,7 +59,7 @@ class SquirrelInstaller extends common.ElectronInstaller {
 
   copySquirrelUpdater () {
     const updateSrc = path.join(this.vendorDir, 'squirrel', 'Squirrel.exe')
-    const updateDest = path.join(this.appStagingDir, 'Update.exe')
+    const updateDest = path.join(this.stagingAppDir, 'Update.exe')
     return fs.copy(updateSrc, updateDest)
       .catch(common.wrapError('copying Squirrel updater'))
   }

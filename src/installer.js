@@ -75,7 +75,7 @@ function getDefaults (data) {
         productName: pkg.productName || pkg.name,
         description: pkg.description,
         productDescription: pkg.productDescription || pkg.description,
-        version: pkg.version || '0.0.0',
+        version: pkg.version || '1.0.0',
 
         copyright: pkg.copyright || (authors && `Copyright \u00A9 ${new Date().getFullYear()} ${authors}`),
         authors: authors,
